@@ -1,0 +1,9 @@
+Toast toast = Toast.makeText(getApplicationContext(),
+        "This is a message displayed in a Toast",
+        Toast.LENGTH_SHORT);
+    
+toast.show();
+
+
+#The Toast.makeText() method is a factory method which creates a Toast object. The method takes 3 parameters. First the methods needs a Context object which is obtained by calling getApplicationContext(). Note: The getApplicationContext() method is a method that exists inside activities, so the above code has to be located in an Activity subclass to work.
+The second parameter is the text to be displayed in the Toast. The third parameter is the time duration the Toast is to be displayed. The Toast class contains two predefined constants you can use: Toast.LENGTH_SHORT and Toast.LENGTH_LONG. You will have to experiment with these two values to see which fits your situation better.
