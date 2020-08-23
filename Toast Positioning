@@ -1,0 +1,3 @@
+toast.setGravity(Gravity.CENTER, 0, 0);
+
+The first parameter of the setGravity() method specifies the overall position of the Toast.
